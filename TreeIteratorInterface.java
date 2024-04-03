@@ -8,8 +8,5 @@ public interface TreeIteratorInterface<T>
     public Iterator<T> getPostorderIterator();
     public Iterator<T> getInorderIterator();
     public Iterator<T> getLevelOrderIterator();
-
-    //Possible function:
-    public Iterator<T> getLevelOrderIteratorVersion2();
         
 }//End TreeIteratorInterface
