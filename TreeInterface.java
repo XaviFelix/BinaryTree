@@ -7,5 +7,7 @@ public interface TreeInterface<T>
     public int getNumberOfNodes();
     public boolean isEmpty();
     public void clear();
+    public void check();
+    public void printLog();
 
 }//End TreeInterface
